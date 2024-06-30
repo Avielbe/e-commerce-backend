@@ -1,0 +1,24 @@
+<!-- 1. start new back end project with express, mongodb and mongoose via nodejs
+
+2. set the project to fit the the mongodb database and collections
+
+3. fetch the mongodb atlas to the project
+
+4. over come the fetch errors:
+I learnd that colleection supposed to be in one and small letters. if not it didnt regonized the collection name, and act like it didnt exsit and buiklt collection with that name. unless you wrtite the coreect name again -->
+
+5.  Understand well the project
+
+6. over the .env
+
+7. connect to git
+
+8. edit the front end part to fit both of them
+
+connect the user and built user login and register interface
+
+make an order and edit it work ont he back end
+
+mobile version
+
+little small parts
