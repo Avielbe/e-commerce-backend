@@ -1,33 +1,39 @@
-//app.js
+// //app.js
 const express = require("express");
+const cors = require("cors");
 const connectDB = require("./config/db");
 
+// Initialize the Express app
 const app = express();
 
 // Connect Database
 connectDB();
 
-// Init Middleware
+// Apply Middlewares
+app.use(cors());
 app.use(express.json());
 
-//optional test:
-app.get("/test-products", async (req, res) => {
-  try {
-    const products = await Product.find({});
-    console.log(
-      "Test Fetched products:",
-      products
-    );
-    res.json(products);
-  } catch (err) {
-    console.error(err.message);
-    res.status(500).send("Server Error");
-  }
-});
+// Optional test route
+// app.get("/test-products", async (req, res) => {
+//   try {
+//     const products = await Product.find({});
+//     console.log(
+//       "Test Fetched products:",
+//       products
+//     );
+//     res.json(products);
+//   } catch (err) {
+//     console.error(
+//       "Error fetching test products:",
+//       err.message
+//     ); // Add detailed logging here
+//     res.status(500).send("Server Error");
+//   }
+// });
 
 // Define Routes
 app.use(
-  "/api/product",
+  "/api/products",
   require("./routes/productRoutes")
 );
 
