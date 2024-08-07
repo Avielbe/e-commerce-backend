@@ -10,12 +10,10 @@ router.get("/", async (req, res) => {
   try {
     const products = await Product.find({});
     if (!Array.isArray(products)) {
-      return res
-        .status(500)
-        .json({
-          message:
-            "Server Error: Data is not an array",
-        });
+      return res.status(500).json({
+        message:
+          "Server Error: Data is not an array",
+      });
     }
     res.json(products);
   } catch (err) {

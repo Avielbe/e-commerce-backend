@@ -36,6 +36,10 @@ app.use(
   "/api/products",
   require("./routes/productRoutes")
 );
+app.use(
+  "/api/users",
+  require("./routes/userRoutes")
+);
 
 const PORT = process.env.PORT || 5001;
 
