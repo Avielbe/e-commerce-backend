@@ -1,0 +1,38 @@
+{"level":"info","message":"Login attempt for email: g@g","timestamp":"2024-09-03T18:42:30.402Z"}
+{"level":"info","message":"User found: g (g@g)","timestamp":"2024-09-03T18:42:30.622Z"}
+{"isMatch":true,"level":"info","message":"Password comparison result:","timestamp":"2024-09-03T18:42:30.744Z"}
+{"level":"info","message":"Login successful for email: g@g","timestamp":"2024-09-03T18:42:30.746Z"}
+{"level":"info","message":"Login attempt for email: g@g","timestamp":"2024-09-03T19:13:46.643Z"}
+{"level":"info","message":"User found: g (g@g)","timestamp":"2024-09-03T19:13:47.297Z"}
+{"isMatch":true,"level":"info","message":"Password comparison result:","timestamp":"2024-09-03T19:13:47.411Z"}
+{"level":"info","message":"Login successful for email: g@g","timestamp":"2024-09-03T19:13:47.416Z"}
+{"level":"info","message":"Login attempt for email: g@g","timestamp":"2024-09-03T19:14:25.539Z"}
+{"level":"info","message":"User found: g (g@g)","timestamp":"2024-09-03T19:14:25.758Z"}
+{"isMatch":true,"level":"info","message":"Password comparison result:","timestamp":"2024-09-03T19:14:25.877Z"}
+{"level":"info","message":"Login successful for email: g@g","timestamp":"2024-09-03T19:14:25.879Z"}
+{"level":"info","message":"Login attempt for email: g@g","timestamp":"2024-09-03T19:17:05.617Z"}
+{"level":"info","message":"User found: g (g@g)","timestamp":"2024-09-03T19:17:05.824Z"}
+{"isMatch":true,"level":"info","message":"Password comparison result:","timestamp":"2024-09-03T19:17:05.941Z"}
+{"level":"info","message":"Login successful for email: g@g","timestamp":"2024-09-03T19:17:05.942Z"}
+2024-09-03T19:17:32.391Z [INFO]: Login attempt for email: g@g
+2024-09-03T19:17:32.598Z [INFO]: User found: g (g@g)
+2024-09-03T19:17:32.719Z [INFO]: Password comparison result:
+2024-09-03T19:17:32.721Z [INFO]: Login successful for email: g@g
+2024-09-03T19:30:38.957Z [INFO]: Login attempt for email: g@g
+2024-09-03T19:30:39.263Z [INFO]: User found: g (g@g)
+2024-09-03T19:30:39.374Z [INFO]: Password comparison result:
+2024-09-03T19:30:39.377Z [INFO]: Login successful for email: g@g
+{"level":"info","message":"Login attempt for email: g@g"}
+{"level":"info","message":"User found: g (g@g)"}
+{"isMatch":true,"level":"info","message":"Password comparison result:"}
+{"level":"info","message":"Login successful for email: g@g"}
+{"level":"info","message":"MongoDB connected..."}
+{"0":"product","1":"customer","2":"order","level":"info","message":"Connected collections:"}
+[32MINFO[39M: MongoDB connected...
+[32MINFO[39M: Connected collections:product, customer, order
+[32MINFO[39M: MongoDB connected...
+[32MINFO[39M: Connected collections:product, customer, order
+[32MINFO[39M: MongoDB connected...
+[32MINFO[39M: Connected collections:product, customer, order
+{"level":"info","message":"MongoDB connected..."}
+{"level":"info","message":"Connected collections:product, customer, order"}

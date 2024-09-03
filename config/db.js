@@ -1,6 +1,7 @@
 //config/db.js
 const mongoose = require("mongoose");
 require("dotenv").config();
+const logger = require("../logger");
 
 const connectDB = async () => {
   try {
@@ -8,14 +9,25 @@ const connectDB = async () => {
     const connectionString =
       process.env.MONGODB_CONNECTION_STRING;
     await mongoose.connect(connectionString, {});
-    console.log("MongoDB connected...");
+    logger.info("MongoDB connected...");
+
     const collections =
       await mongoose.connection.db
         .listCollections()
         .toArray();
-    console.log("Collections:", collections); //
+    const collectionNames = collections.map(
+      (collection) => collection.name
+    );
+
+    logger.info(
+      "Connected collections:" +
+        collectionNames.join(", ")
+    );
   } catch (err) {
-    console.error(err.message);
+    logger.error(
+      "MongoDB connection error:",
+      err.message
+    );
     process.exit(1);
   }
 };
