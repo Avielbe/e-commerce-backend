@@ -36,3 +36,11 @@
 [32MINFO[39M: Connected collections:product, customer, order
 {"level":"info","message":"MongoDB connected..."}
 {"level":"info","message":"Connected collections:product, customer, order"}
+{"level":"info","message":"MongoDB connected..."}
+{"level":"info","message":"Connected collections:product, customer, order"}
+{"level":"info","message":"MongoDB connected..."}
+{"level":"info","message":"Connected collections:product, customer, order"}
+{"level":"info","message":"Login attempt for email: g@g"}
+{"level":"info","message":"User found: g (g@g)"}
+{"isMatch":true,"level":"info","message":"Password comparison result:"}
+{"level":"info","message":"Login successful for email: g@g"}
